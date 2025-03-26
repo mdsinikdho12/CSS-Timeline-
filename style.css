@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    background-color:#23486A;
+}
+.Timeline-1{
+    width: 400px;
+    height: 200px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    
+    background: #27293F;
+}
+.Timeline{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    border-left: 2px solid#27293F;
+
+}
+.Timeline-heading{
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #0080FF;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 3px 10px;
+
+}
+.Timeline-heading-2{
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #FF0080;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 3px 10px;
+
+}
+.Timeline-heading-3{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    background-color:#00d9ff;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 3px 10px;
+
+}
+.timeline-text{
+    color: rgb(185, 189, 193);
+    font-weight: 300;
+  
+    margin-left: 10px;
+}
+em{
+    color: rgb(123, 123, 123);
+    margin-left: 10px;
+}
+.Timeline-heading::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -154px;
+    margin-top: -7px;
+    background-color:  #0080FF;
+    border: 2px solid #27293F ;
+}
+.Timeline-heading-2::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -149px;
+    margin-top: -7px;
+    background-color: #FF0080;
+    border: 2px solid #27293F ;
+}
+.Timeline-heading-3::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -149px;
+    margin-top: -7px;
+    background-color: #00d9ff;
+    border: 2px solid #27293F ;
+    
+}
